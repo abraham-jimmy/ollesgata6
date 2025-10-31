@@ -15,7 +15,7 @@ with open(html_file, "w") as f:
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My Local Image Gallery</title>
+  <title>yo bror</title>
   <style>
     body {
       background-color: #000;
@@ -39,6 +39,7 @@ with open(html_file, "w") as f:
         f.write(f"  <div><img src='{img}' alt='{img}'></div>\n")
 
     f.write("""
+  <i>prutt</i>
 </body>
 </html>
 """)
